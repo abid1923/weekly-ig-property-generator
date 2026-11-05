@@ -1,0 +1,1 @@
+# weekly-ig-property-generator
