@@ -1,0 +1,14 @@
+Berikut daftar berita properti terbaru (7 hari terakhir). Pilih {{N_POSTS}} berita yang paling relevan untuk calon pembeli atau penyewa rumah di Indonesia, lalu buat satu post Instagram untuk masing-masing.
+
+Syarat pemilihan:
+- Topik HARUS berbeda satu sama lain (misalnya: KPR/pembiayaan, tren harga dan pasar, proyek atau developer, kebijakan/ekonomi makro). Jangan memilih dua berita dengan topik sama.
+- Hindari berita yang tidak berkaitan dengan properti atau hunian.
+
+<articles>
+{{ARTICLES}}
+</articles>
+
+Untuk setiap post, isi juga "fact_basis": kutip bagian judul yang mendasari klaim utama di caption. Jika caption berisi penjelasan umum yang tidak ada di judul, tulis "penjelasan umum" di bagian itu. Ini dipakai untuk pengecekan fakta.
+
+Format keluaran (JSON):
+{"posts": [{"topic": "...", "source_title": "...", "source_name": "...", "source_url": "...", "fact_basis": "...", "hook": "...", "caption": "...", "cta": "...", "hashtags": ["#..."]}]}

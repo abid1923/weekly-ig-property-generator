@@ -1,0 +1,8 @@
+Berikut daftar berita properti terbaru (7 hari terakhir). Pilih {{N_POSTS}} berita yang paling relevan untuk calon pembeli atau penyewa rumah di Indonesia, lalu buat satu post Instagram untuk masing-masing. Pilih topik yang beragam, jangan semuanya soal hal yang sama.
+
+<articles>
+{{ARTICLES}}
+</articles>
+
+Format keluaran (JSON):
+{"posts": [{"source_title": "...", "source_name": "...", "source_url": "...", "hook": "...", "caption": "...", "cta": "...", "hashtags": ["#..."]}]}
