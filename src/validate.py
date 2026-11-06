@@ -2,7 +2,7 @@ import re
 
 REQUIRED = ["topic", "source_title", "source_name", "source_url",
             "fact_basis", "hook", "caption", "cta", "hashtags"]
-FORBIDDEN = ["link bio", "website kami", "portal kami", "anda"]
+FORBIDDEN = ["link bio", "website kami", "portal kami", "anda", "judul", "artikel ini", "berita ini"]
 EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF]")
 
 

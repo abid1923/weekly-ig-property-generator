@@ -1,7 +1,7 @@
 Berikut daftar berita properti terbaru (7 hari terakhir). Pilih {{N_POSTS}} berita yang paling relevan untuk calon pembeli atau penyewa rumah di Indonesia, lalu buat satu post Instagram untuk masing-masing.
 
 Syarat pemilihan:
-- Topik HARUS berbeda satu sama lain (misalnya: KPR/pembiayaan, tren harga dan pasar, proyek atau developer, kebijakan/ekonomi makro). Jangan memilih dua berita dengan topik sama.
+- Pilih 3 berita dari 3 KATEGORI BERBEDA: (1) KPR atau pembiayaan, (2) harga atau tren pasar, (3) proyek, developer, atau kebijakan/ekonomi makro. Properti komersial hanya boleh dipilih untuk satu post.
 - Hindari berita yang tidak berkaitan dengan properti atau hunian.
 
 <articles>

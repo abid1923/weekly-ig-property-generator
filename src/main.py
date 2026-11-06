@@ -21,7 +21,8 @@ def main():
 
     out_dir = BASE / "outputs"
     out_dir.mkdir(exist_ok=True)
-    today = date.today().isoformat()
+    from datetime import datetime
+    today = datetime.now().strftime("%Y-%m-%d_%H%M")
 
     (out_dir / f"posts-{today}.json").write_text(
         json.dumps(posts, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -30,6 +31,7 @@ def main():
     for i, p in enumerate(posts, 1):
         md.append(f"## Post {i}\n")
         md.append(f"**Hook:** {p['hook']}\n")
+        md.append(f"*Dasar fakta: {p['fact_basis']}*\n")
         md.append(f"{p['caption']}\n")
         md.append(f"**CTA:** {p['cta']}\n")
         md.append(" ".join(p["hashtags"]) + "\n")
